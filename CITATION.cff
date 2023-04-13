@@ -13,3 +13,8 @@ authors:
   
 - family-names: "Nappi"
   given-names: "Miachel"
+  
+title: "NITRDrone Dataset"
+version: 1.0
+date-released: 2021-09-23
+url: "https://github.com/drone-vision/NITRDrone-Dataset"
