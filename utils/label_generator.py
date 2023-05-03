@@ -33,3 +33,21 @@ def main():
     os.makedirs(args.output_dir)
     os.makedirs(osp.join(args.output_dir, 'JPEGImages'))
     os.makedirs(osp.join(args.output_dir, 'SegmentationClass'))
+    os.makedirs(osp.join(args.output_dir, 'SegmentationClassPNG'))
+    if not args.noviz:
+        os.makedirs(
+            osp.join(args.output_dir, 'SegmentationClassVisualization')
+        )
+    print('Creating dataset:', args.output_dir)
+
+    class_names = []
+    class_name_to_id = {}
+    for i, line in enumerate(open(args.labels).readlines()):
+        class_id = i - 1  # starts with -1
+        class_name = line.strip()
+        class_name_to_id[class_name] = class_id
+        if class_id == -1:
+            assert class_name == '__ignore__'
+            continue
+        elif class_id == 0:
+            assert class_name == '_background_'
