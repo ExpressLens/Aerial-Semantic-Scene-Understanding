@@ -51,3 +51,19 @@ def main():
             continue
         elif class_id == 0:
             assert class_name == '_background_'
+        class_names.append(class_name)
+    class_names = tuple(class_names)
+    print('class_names:', class_names)
+    out_class_names_file = osp.join(args.output_dir, 'class_names.txt')
+    with open(out_class_names_file, 'w') as f:
+        f.writelines('\n'.join(class_names))
+    print('Saved class_names:', out_class_names_file)
+
+    for filename in glob.glob(osp.join(args.input_dir, '*.json')):
+        print('Generating dataset from:', filename)
+
+        label_file = labelme.LabelFile(filename=filename)
+
+        base = osp.splitext(osp.basename(filename))[0]
+        out_img_file = osp.join(
+            args.output_dir, 'JPEGImages', base + '.png')
