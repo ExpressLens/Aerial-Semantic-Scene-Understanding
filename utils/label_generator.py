@@ -67,3 +67,23 @@ def main():
         base = osp.splitext(osp.basename(filename))[0]
         out_img_file = osp.join(
             args.output_dir, 'JPEGImages', base + '.png')
+        out_lbl_file = osp.join(
+            args.output_dir, 'SegmentationClass', base + '.npy')
+        out_png_file = osp.join(
+            args.output_dir, 'SegmentationClassPNG', base + '.png')
+        if not args.noviz:
+            out_viz_file = osp.join(
+                args.output_dir,
+                'SegmentationClassVisualization',
+                base + '.jpg',
+            )
+
+        with open(out_img_file, 'wb') as f:
+            f.write(label_file.imageData)
+        img = labelme.utils.img_data_to_arr(label_file.imageData)
+
+        lbl, _ = labelme.utils.shapes_to_label(
+            img_shape=img.shape,
+            shapes=label_file.shapes,
+            label_name_to_value=class_name_to_id,
+        )
