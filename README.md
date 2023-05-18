@@ -24,3 +24,20 @@ Our dataset is designed for semantic scene understanding from aerial images and 
 | _vegetation_ |  3 | (128, 128, 0)  |
 ## Directory Structure:
 ```
+Aerial Semantic Scene Understanding Dataset
+│
+└─── readme_images
+|
+└─────────data
+│          |
+│          └─── train
+|          |       └───| images 
+|          |       └───| gray_masks
+|          |       └───| rgb_masks
+|          └───   val
+|          |       └───| images 
+|          |       └───| gray_masks
+|          |       └───| rgb_masks
+|          |        
+|          |    .gitignore
+|          | 
