@@ -54,3 +54,9 @@ Aerial Semantic Scene Understanding Dataset
 |    LICENSE
 |    README.md
 |   ...
+```
+
+
+
+DESCRIPTION:<br />
+|Folder Name| Description |
