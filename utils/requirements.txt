@@ -3,3 +3,5 @@ glob
 os
 sys
 imgviz
+numpy
+lab
