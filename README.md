@@ -10,3 +10,17 @@ Our dataset is designed for semantic scene understanding from aerial images and 
 
 ## LOG
 |Date   | Log  |
+|---|---|
+| 2019.09.01  | Initialization  |
+| 2021.09.23  |  ASSUD(4) released |
+
+## Dataset Overview:
+-ASSUD
+| class  | GT  | (R, G, B)  |
+|---|---|---|
+| _background_ | 0   | (0, 0, 0)  |
+| _road_ |  1 |  (128, 0, 0) |
+| _occluded_road_ |  2 | (0, 128, 0)  |
+| _vegetation_ |  3 | (128, 128, 0)  |
+## Directory Structure:
+```
