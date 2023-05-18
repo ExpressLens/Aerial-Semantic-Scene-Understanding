@@ -41,3 +41,16 @@ Aerial Semantic Scene Understanding Dataset
 |          |        
 |          |    .gitignore
 |          | 
+|          |     frame271.jpg
+|          ...
+└───utils
+│   │  label_generator.py
+│   │  labels.txt 
+│   │  requirements.txt
+│   ...
+│   
+|   .gitignore
+|    CITATION.cff
+|    LICENSE
+|    README.md
+|   ...
