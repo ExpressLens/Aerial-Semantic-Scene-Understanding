@@ -1,0 +1,12 @@
+
+<p align="center">
+ <img src="https://github.com/ExpressLens/Aerial-Semantic-Scene-Understanding/blob/main/readme_images/frame271-ok.jpg" width=150 height=150 alt="centered logo" />
+ </p>
+<h1 align="center">Aerial Semantic Scene Understanding Dataset (ASSUD)</h1>
+
+
+
+Our dataset is designed for semantic scene understanding from aerial images and is constantly being updated.
+
+## LOG
+|Date   | Log  |

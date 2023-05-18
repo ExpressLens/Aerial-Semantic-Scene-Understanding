@@ -4,4 +4,4 @@ os
 sys
 imgviz
 numpy
-lab
+labelme
