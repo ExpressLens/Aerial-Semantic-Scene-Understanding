@@ -60,3 +60,15 @@ Aerial Semantic Scene Understanding Dataset
 
 DESCRIPTION:<br />
 |Folder Name| Description |
+|---|---|
+| train| contains three folders as images, rgb_masks, gray_masks|
+| val| contains three folders as images, rgb_masks, gray_masks|
+| images  | Aerial images captured by DJI Phantom 4 drone  |
+| rgb_masks | RGB masks of the corresponding images generated after annotations  |
+|  gray_masks    | Gray scale masks of the corresponding images     |
+| utils  | Important files related to dataset preparation  |
+
+
+## Benchmark
+The benchmark is released to look for better solutions for the proposed dataset **(ASSUD)**. The performance metrics that are used OA (Overall Accuracy/pixelwise accuracy), mIoU (mean Intersection over Union).
+Researchers are welcomed to contribute new results!
