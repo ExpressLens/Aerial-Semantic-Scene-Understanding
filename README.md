@@ -98,3 +98,20 @@ Researchers are welcomed to contribute new results!
   <tr>
     <td><img src="https://github.com/ExpressLens/Aerial-Semantic-Scene-Understanding/blob/main/readme_images/imgs/NITR_FR_1.jpg" width=480 height=270></td>
     <td><img src="https://github.com/ExpressLens/Aerial-Semantic-Scene-Understanding/blob/main/readme_images/seg_class/NITR_FR_1.png" width=480 height=270></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ExpressLens/Aerial-Semantic-Scene-Understanding/blob/main/readme_images/imgs/NITR_FR_6.jpg" width=480 height=270></td>
+    <td><img src="https://github.com/ExpressLens/Aerial-Semantic-Scene-Understanding/blob/main/readme_images/seg_class/NITR_FR_6.png" width=480 height=270></td>
+  </tr>
+ </table>
+
+## Download Link:
+- ASSUD(4): (train+val) <br />
+[GDrive](https://drive.google.com/drive/folders/1IQUadXFpEFEsB_9I5JVUuGJBjqIL5MFG?usp=sharing)
+
+
+## LICENSE:
+
+This dataset is licenensed to Visual Surveillance Laboratory, Department of Computer Science and Engineering, National Institute of Technology, Rourkela, India. 
+
+## Citation & Acknowledgements
