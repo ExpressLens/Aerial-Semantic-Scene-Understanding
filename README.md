@@ -72,3 +72,14 @@ DESCRIPTION:<br />
 ## Benchmark
 The benchmark is released to look for better solutions for the proposed dataset **(ASSUD)**. The performance metrics that are used OA (Overall Accuracy/pixelwise accuracy), mIoU (mean Intersection over Union).
 Researchers are welcomed to contribute new results!
+
+-Obtained Results (ASSUD(4))
+| Models  | #Parameters  | OA | mIoU |
+|---------|--------------|----|------|
+|FCN-8s   |   136*M*           |  0.72  |  0.16     |
+|FCN-16s   |  134*M*            | 0.83   | 0.68     |
+|FCN-32s   |  134*M*            | 0.86   | 0.63     |
+|FC_Densenet_103   |  9.42*M* | 0.91   | 0.62     |
+|E-Net   |     350.65*K*         | 0.89   | 0.65    |
+|LinkNet   |   1.15*M*           | 0.93  |  0.46    |
+
