@@ -83,3 +83,18 @@ Researchers are welcomed to contribute new results!
 |E-Net   |     350.65*K*         | 0.89   | 0.65    |
 |LinkNet   |   1.15*M*           | 0.93  |  0.46    |
 
+
+## Sample Images
+<table>
+     
+  <tr>
+    <td>image</td>
+     <td>mask</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ExpressLens/Aerial-Semantic-Scene-Understanding/blob/main/readme_images/imgs/NITR_AC_JAN26_30.jpg" width=480 height=270></td>
+    <td><img src="https://github.com/ExpressLens/Aerial-Semantic-Scene-Understanding/blob/main/readme_images/seg_class/NITR_AC_JAN26_30.png" width=480 height=270></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ExpressLens/Aerial-Semantic-Scene-Understanding/blob/main/readme_images/imgs/NITR_FR_1.jpg" width=480 height=270></td>
+    <td><img src="https://github.com/ExpressLens/Aerial-Semantic-Scene-Understanding/blob/main/readme_images/seg_class/NITR_FR_1.png" width=480 height=270></td>
