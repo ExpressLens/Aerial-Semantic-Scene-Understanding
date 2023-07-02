@@ -115,3 +115,15 @@ Researchers are welcomed to contribute new results!
 This dataset is licenensed to Visual Surveillance Laboratory, Department of Computer Science and Engineering, National Institute of Technology, Rourkela, India. 
 
 ## Citation & Acknowledgements
+
+ This dataset is available publicly for only for non-commercial use. If you use this dataset in your research or wish to refer to the baseline results published    in the README, please cite the work from Cite this repository as:
+
+    @article{assud2021,
+        title={The Aerial Semantic Scene Understanding Dataset to Address the Challenges for Road Extraction from Aerial Images},
+        author={Behera, Tanmay Kumar and Bakshi, Sambit and Sa, Pankaj Kumar and Nappi, Michael and Castiglione, Aniello and Vijayakumar, Pandi   and Gupta, Brij},        
+        journal = {Journal of Signal Processing Systems},
+        publisher={Springer},
+        year={2021}, 
+        note = "doi:10.1007/s11265-022-01777-0"
+     }
+   
